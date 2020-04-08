@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#141414"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageURLEditText"
+            android:hint="Enter Image URL"
+            android:textColor="#fff"
+
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_marginTop="10dp"
+        android:id="@+id/downloadButton"
+        android:textSize="18sp"
+        android:background="#FFF"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/downloadImageView"
+        android:layout_marginTop="10dp"
+        android:src="@color/cardview_dark_background"
+        />
+
+</LinearLayout>
